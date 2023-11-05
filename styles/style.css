@@ -177,7 +177,7 @@
 } 
 
 .image-3 {
-  filter: contrast(200%);
+  filter: contrast(300%) saturate(0.3) hue-rotate(250deg) blur(1px);
 }
 
 .image-4 {
