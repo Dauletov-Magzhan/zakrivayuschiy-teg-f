@@ -1,1 +1,16 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+    --main-font: Inter, 'sans-serif';
+    --accent-font: PressStart2P, 'sans-serif';
+    --main-font-weight-title: 700;
+    --accent-font-weight-text: 400;
+    --text-color: #000;
+    --main-bg-color: #fff;
+    --bg-image: repeating-linear-gradient(#d3d3d3, transparent 4px),
+                repeating-linear-gradient(to right, #d3d3d3, transparent 4px),
+                linear-gradient(#e7e7e7, #1a1a1a);
+    --weight-title: 700;
+    --weight-text: 400;
+    --color-red: #f00; 
+    --label-shadow: #fff; 
+}
