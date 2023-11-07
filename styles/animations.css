@@ -67,12 +67,12 @@
     transition: fill 0.3s 0.03s linear;
   }
   
-  .like-icon.is-liked .main-body{
+  .like-icon.is-liked .main-body {
     fill: var(--color-red);
     transition: fill 0.3s 0.05s linear;
   }
   
-  .like-icon.is-liked .contour{
+  .like-icon.is-liked .contour {
     fill: var(--color-red);
     transition: fill 0.3s 0.06s linear;
   }

@@ -187,7 +187,6 @@
     1px -1px 0 var(--label-shadow),
     -1px 1px 0 var(--label-shadow),
     -1px -1px 0 var(--label-shadow);
-    mix-blend-mode: hard-light;
 }
 
 @supports((text-stroke: 1px var(--label-shadow)) or (-webkit-text-stroke: 1px var(--label-shadow))) {
@@ -258,7 +257,7 @@
   outline: none;
 }
 
-.button:focus-visible{
+.button:focus-visible {
   box-shadow: 2px 2px var(--text-color);
 }
 
