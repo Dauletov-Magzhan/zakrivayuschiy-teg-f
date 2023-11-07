@@ -6,8 +6,6 @@
 */
 
 :root.theme-light {
-    --main-font: Inter, 'sans-serif';
-    --accent-font: PressStart2P, 'sans-serif';
     --main-font-weight-title: 700;
     --accent-font-weight-text: 400;
     --main-bg-color: #fff;
@@ -18,12 +16,10 @@
     --weight-title: 700;
     --weight-text: 400;
     --color-red: #f00;
-    --label-shadow: #fff; 
+    --label-shadow: #fff;
 }
 
 :root.theme-dark {
-    --main-font: Inter, 'sans-serif';
-    --accent-font: PressStart2P, 'sans-serif';
     --main-font-weight-title: 785;
     --accent-font-weight-text: 465;
     --main-bg-color: #000;
@@ -34,5 +30,5 @@
                 repeating-linear-gradient(to right, #000, transparent 4px),
                 linear-gradient(#007f0c, #004306);
     --color-red: #f00;  
-    --label-shadow: #000;         
+    --label-shadow: #000;       
 }
