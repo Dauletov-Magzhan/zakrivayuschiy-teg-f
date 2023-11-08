@@ -1,9 +1,8 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+
 :root {
     --main-font: 'Inter', sans-serif;
     --accent-font: 'PressStart2P', fantasy;
-    --main-font-weight-title: 700;
-    --accent-font-weight-text: 400;
     --text-color: #000;
     --main-bg-color: #fff;
     --bg-image: repeating-linear-gradient(#d3d3d3, transparent 4px),
@@ -13,4 +12,5 @@
     --weight-text: 400;
     --color-red: #f00;
     --label-shadow: #fff;
+    --button-text-color: #fff;
 }
